@@ -36,7 +36,7 @@ function checkDependencies(){
 
 # fix: exit failure, abort program
 function setSession(){
-  let TimePerScreen=$(zenity  --text="Enter the minutes for each Workspace:" --scale --value=1 --min-value=1 --max-value=221)*5 
+  let TimePerScreen=$(zenity  --text="Enter the minutes for each Workspace:" --scale --value=1 --min-value=1 --max-value=221)*60 
   #if [ $? -eq "1" ]; then exit; fi
   let Cycles=$(zenity  --text="Enter the number of Cycles" --scale --value=1 --min-value=1 --max-value=221)
   #if [ $? -eq "1" ]; then exit; fi
