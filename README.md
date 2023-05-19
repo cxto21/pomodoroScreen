@@ -13,5 +13,6 @@
 - And then you can run as selected in the installer...
 
 ## Planned improvements:
-* Save the work environment, with programs by workspace and their locations on screen and creating a log.
+* soe day it will have a graphical interface and it will be a work environment to save sessions
+
 
